@@ -3,7 +3,7 @@ import time
 import openai
 import requests
 import os
-openai.api_key = "sk-proj-Bue2ofTbTAvx2ExJvNGdT3BlbkFJqvLfVmmvjcveUaEpQoGS"
+
 # response = openai.Completion.create(model="text-davinci-002", prompt="Say this is a test", temperature=0, max_tokens=7)
 
 def openai_chatgpt_function():
