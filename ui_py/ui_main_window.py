@@ -373,7 +373,7 @@ questionList = [
 import openai
 import requests
 
-
+openai.api_key = 'sk-proj-Bue2ofTbTAvx2ExJvNGdT3BlbkFJqvLfVmmvjcveUaEpQoGS'
 
 class OpenaiThread(QThread):
     signal_IsWaiting= pyqtSignal(int)

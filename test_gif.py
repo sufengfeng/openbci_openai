@@ -48,6 +48,6 @@ for i in range(frame_count):
 
 # 保存动画为GIF
 output_file = "talking_face.gif"
-imageio.mimsave(output_file, frames, format='GIF', duration=0.8)
+imageio.mimsave(output_file, frames, format='GIF', duration=0.5)
 
 print(f'动画已保存为 {output_file}')

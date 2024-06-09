@@ -3,7 +3,7 @@ import requests
 import os
 
 # 设置 OpenAI API 密钥
-
+openai.api_key = 'sk-proj-Bue2ofTbTAvx2ExJvNGdT3BlbkFJqvLfVmmvjcveUaEpQoGS'
 
 # 调用 OpenAI API 生成图片
 response = openai.Image.create(prompt="一只愤怒的猫捉老鼠", n=1, size="1024x1024")
